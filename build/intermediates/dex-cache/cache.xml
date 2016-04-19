@@ -2,32 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/home/konrad2/GoProVR/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
-        jumboMode="false"
+        jar="/Users/gijs/Work/goprovr/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="true"
         revision="22.0.1"
         sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/home/konrad2/GoProVR/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-bb0794f948f60fcf84e1ace70c974148aee359bf.jar" />
+        <dex dex="/Users/gijs/Work/goprovr/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.1.1_a5ae04ff4b118989d084b33907b623820123a800/classes.dex" />
     </item>
     <item
-        jar="/home/konrad2/GoProVR/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/gijs/Work/goprovr/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="true"
         revision="22.0.1"
         sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/home/konrad2/GoProVR/app/build/intermediates/pre-dexed/debug/classes-660d9e410c259c21b5cbd4ac601c18b71b4ad2f2.jar" />
+        <dex dex="/Users/gijs/Work/goprovr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.1.1_cf2bee91baa8f34c52d3add9ae876f0bd81acc18/classes.dex" />
     </item>
     <item
-        jar="/host/Users/Pc/Desktop/androidsdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
-        jumboMode="false"
+        jar="/Users/gijs/Work/goprovr/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="af3dac37bc03438e7c3bd5ac797578aa707df384">
+        <dex dex="/Users/gijs/Work/goprovr/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2d91e023716113373701c7e2d746456dc35e0240/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gijs/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="true"
         revision="22.0.1"
         sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/home/konrad2/GoProVR/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-180c13baacf66c6e9c1d591b60a186f959adc47e.jar" />
+        <dex dex="/Users/gijs/Work/goprovr/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.1.1_e0042cab071d0f531faa2356e037565cb034436c/classes.dex" />
     </item>
     <item
-        jar="/home/konrad2/GoProVR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/gijs/Work/goprovr/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="ca5bf7b9677084618d76823b7137f6099e8d7a05">
+        <dex dex="/Users/gijs/Work/goprovr/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9a052e286aeebd8a982b87ef4581b6af20508ec0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/gijs/Work/goprovr/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="true"
         revision="22.0.1"
         sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/home/konrad2/GoProVR/app/build/intermediates/pre-dexed/debug/classes-b951390a4ded21e1d899dbc1b7ef7b6ea34ce98f.jar" />
+        <dex dex="/Users/gijs/Work/goprovr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.1.1_9bc46488318d01df7b09edcac9ea6eb349700dc2/classes.dex" />
     </item>
 
 </items>

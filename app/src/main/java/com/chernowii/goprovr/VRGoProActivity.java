@@ -1,21 +1,14 @@
 package com.chernowii.goprovr;
 
 
-import android.annotation.TargetApi;
 import android.app.Activity;
-import android.media.MediaPlayer;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.CountDownTimer;
-import android.os.Handler;
 import android.util.Log;
 import android.view.MotionEvent;
-import android.view.View;
-import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
 
@@ -66,18 +59,9 @@ public class VRGoProActivity extends Activity {
 
         setContentView(R.layout.activity_vrgo_pro);
 
-        //START STREAMING SERVICE ON CAMERA H2/H3/H3+
- String yourFilePath = this.getFilesDir() + "/" + "camconfig.txt";
+        String password = "gijsgijs";
 
-        File yourFile = new File( yourFilePath );
-        try {
-            String password = getFileContents(yourFile);
-
-            new HttpAsyncTask().execute("http://10.5.5.9/camera/PV?t=" + password + "&p=%02");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-//START TO STREAM TO TWO VIDEO SPACES
+        new HttpAsyncTask().execute("http://10.5.5.9/camera/PV?t=" + password + "&p=%02");
 
         streamLeft = (VideoView)this.findViewById(R.id.streamLeft);
         streamRight = (VideoView)this.findViewById(R.id.streamRight);
@@ -105,17 +89,8 @@ public class VRGoProActivity extends Activity {
 
 
     public void refreshStream(){
-        String yourFilePath = this.getFilesDir() + "/" + "camconfig.txt";
-
-        File yourFile = new File( yourFilePath );
-        try {
-            String password = getFileContents(yourFile);
-
-            new HttpAsyncTask().execute("http://10.5.5.9/camera/PV?t=" + password + "&p=%02");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-//START TO STREAM TO TWO VIDEO SPACES
+        String password = "gijsgijs";
+        new HttpAsyncTask().execute("http://10.5.5.9/camera/PV?t=" + password + "&p=%02");
 
         streamLeft = (VideoView)this.findViewById(R.id.streamLeft);
         streamRight = (VideoView)this.findViewById(R.id.streamRight);
