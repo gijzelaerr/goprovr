@@ -19,7 +19,7 @@
         jar="/Users/gijs/Work/goprovr/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="22.0.1"
-        sha1="af3dac37bc03438e7c3bd5ac797578aa707df384">
+        sha1="2e51d9a14fbca7dd04c951812471fdb7e75cf15e">
         <dex dex="/Users/gijs/Work/goprovr/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2d91e023716113373701c7e2d746456dc35e0240/classes.dex" />
     </item>
     <item
@@ -33,7 +33,7 @@
         jar="/Users/gijs/Work/goprovr/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="22.0.1"
-        sha1="ca5bf7b9677084618d76823b7137f6099e8d7a05">
+        sha1="61dddb480d6fc5a4805a7a2a9ca0ad399114f7f0">
         <dex dex="/Users/gijs/Work/goprovr/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9a052e286aeebd8a982b87ef4581b6af20508ec0/classes.dex" />
     </item>
     <item
